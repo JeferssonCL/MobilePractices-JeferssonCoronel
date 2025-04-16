@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:padding="8dp">
+
+    <Button
+        android:id="@+id/btnPage1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="4dp"
+        android:text="1"
+        android:backgroundTint="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/btnPage2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="4dp"
+        android:text="2"
+        android:backgroundTint="@color/colorInactive" />
+
+    <Button
+        android:id="@+id/btnPage3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="4dp"
+        android:text="3"
+        android:backgroundTint="@color/colorInactive" />
+
+    <Button
+        android:id="@+id/btnPage4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="4dp"
+        android:text="4"
+        android:backgroundTint="@color/colorInactive" />
+
+    <Button
+        android:id="@+id/btnPage5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="4dp"
+        android:text="5"
+        android:backgroundTint="@color/colorInactive" />
+</LinearLayout>
